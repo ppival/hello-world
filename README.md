@@ -6,4 +6,4 @@ Not sure yet what's going to go here, or whether I can connect this to both the 
 ###Backwards-incompatible changes:
 
 When using the –columns or –not-columns options, you must not have spaces around the comma-separated values, unless the column names contain spaces.
-CSVKitReader, CSVKitWriter, CSVKitDictReader, and CSVKitDictWriter have been removed. Use agate.reader, agate.writer, agate.DictReader and agate.DictWriter.
+CSVKitReader, CSVKitWriter, and CSVKitDictReader have been removed. Use agate.reader, agate.writer, agate.DictReader and agate.DictWriter.
